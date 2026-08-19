@@ -18,7 +18,7 @@ public class ArrayQ3 {
                 min=arr[i];
             }
         }
-        System.out.println(max + " : Max");
+        System.out.println(m + " : Max");
         System.out.println(min + " : Min");
 
     }
