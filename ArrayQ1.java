@@ -1,8 +1,19 @@
-public class HelloWorld {
+//Java Program for finding the largest element of the array
 
+class ArrayQ1
+{
     public static void main(String[] args) {
+        int[] arr={3,8,5,9,2,7};
+        int max=arr[0];
 
-        System.out.println("Hello World");
+        for(int i=1;i<arr.length;i++)
+        {
+            if(arr[i]>max)
+            {
+                max=arr[i];
+            }
 
+        }
+        System.out.println("Largest Element in an array is "+ max);
     }
 }
